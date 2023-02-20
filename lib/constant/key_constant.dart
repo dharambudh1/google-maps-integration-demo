@@ -7,5 +7,5 @@ class KeyConstant {
 
   static final KeyConstant _singleton = KeyConstant._internal();
 
-  final String apiKey = "AIzaSyAZcErImmvpgzC5LNocJsk1E6EU8JfloCQ";
+  final String apiKey = "YOUR KEY HERE";
 }
