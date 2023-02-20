@@ -1,16 +1,20 @@
-# google_maps_integration
+# Google Maps Integration Demo
 
-A new Flutter project.
+## Features:
+- Location permission & service handling,
+- Custom markers for current, source & destination locations,
+- Source to destination road path-finding & total distance (in KM) calculating,
+- It is available in 6 different map styles [Standard, Silver, Retro, Dark, Night, Aubergine],
+- It has beautiful & smooth animations as well.
 
-## Getting Started
+## Installation Steps:
+- I did make changes in a few pub libraries due to the below-mentioned issues:
+- Issue #1: Location service requests are getting fail on older android devices due to the obsolete or deprecated location library used in the package.<br> Resolution #1: Goto: /flutter/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/android/build.gradle
+comment line no 50: api 'com.google.android.gms:play-services-location:16.+'
+& replace with code: api 'com.google.android.gms:play-services-location:21.0.1'
+- Issue #2: There is no back button on Place Picker Screen for iOS devices because the place_picker library intentionally hides that back button from the app bar.<br>Resolution #2: Goto: /flutter/.pub-cache/hosted/pub.dartlang.org/place_picker-0.10.0/lib/widgets/place_picker.dart
+comment line no 149: automaticallyImplyLeading: false
+& replace with code: automaticallyImplyLeading: true
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/j2qs8jn1/imgonline-com-ua-twotoone-y-Iw-H2n-GFKKe46k-P.png "img")
