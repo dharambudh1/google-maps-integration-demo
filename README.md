@@ -16,5 +16,8 @@ comment line no 50: api 'com.google.android.gms:play-services-location:16.+'
 comment line no 149: automaticallyImplyLeading: false
 & replace with code: automaticallyImplyLeading: true
 
+## Important:
+- Do not forget to mention your Google API Key on AndroidManifest.xml, AppDelegate.swift, Info.plist & key_constant.dart.
+
 ## Preview
 ![alt text](https://i.postimg.cc/j2qs8jn1/imgonline-com-ua-twotoone-y-Iw-H2n-GFKKe46k-P.png "img")
