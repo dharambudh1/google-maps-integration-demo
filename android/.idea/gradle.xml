@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$USER_HOME$/Documents/Dharam/flutter_sdk/flutter_macos_3.3.10-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.7/android" />
+            <option value="$USER_HOME$/Documents/Dharam/flutter_sdk/flutter_macos_3.3.10-stable/flutter/.pub-cache/hosted/pub.dartlang.org/geocoding-2.0.5/android" />
+            <option value="$USER_HOME$/Documents/Dharam/flutter_sdk/flutter_macos_3.3.10-stable/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_android-4.1.7/android" />
+            <option value="$USER_HOME$/Documents/Dharam/flutter_sdk/flutter_macos_3.3.10-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_android-2.4.3/android" />
+            <option value="$USER_HOME$/Documents/Dharam/flutter_sdk/flutter_macos_3.3.10-stable/flutter/.pub-cache/hosted/pub.dartlang.org/location-4.4.0/android" />
+            <option value="$USER_HOME$/Documents/Dharam/flutter_sdk/flutter_macos_3.3.10-stable/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler_android-10.2.0/android" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
