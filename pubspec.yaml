@@ -16,7 +16,7 @@ dependencies:
   geolocator: ^9.0.2
   get: ^4.6.5
   google_maps_flutter: ^2.2.3
-  google_maps_flutter_android: ^2.4.3
+  google_maps_flutter_android: ^2.4.5
   google_maps_flutter_ios: ^2.1.13
   google_maps_flutter_platform_interface: ^2.2.5
   http: ^0.13.5
@@ -25,7 +25,7 @@ dependencies:
   modal_bottom_sheet: ^2.1.2
   permission_handler: ^10.2.0
   place_picker: ^0.10.0
-  transparent_image: ^2.0.0
+  transparent_image: ^2.0.1
 
 dev_dependencies:
   flutter_lints: ^2.0.1
